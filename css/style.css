@@ -1,0 +1,192 @@
+html, body, .container-fluid{
+  height:5vh;
+  position: relative;
+}
+
+/*-----------------------------NAVBAR-----------------------------------------------------------------*/
+.navbar{
+  background: none;
+  height: 5%;
+}
+#nav-collapse{
+  background: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #73FDFF;  /*hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: white; 
+background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+    }
+
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+/*-----------------------------END NAVBAR-----------------------------------------------------------------*/
+
+.body-row {
+  margin-bottom: 30px;
+}
+
+.section1 {
+ background: url(../images/forest-931706_1280.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  padding-bottom: 100px;
+}
+
+h1 {
+  padding: 150px 10px 10px 10px;
+  text-align: center;
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 10em;
+  text-shadow: 2px 1px 3px #005501;
+  letter-spacing: 0px;
+  color: #73FDFF;
+  height: 40vh;
+}
+
+h2 {
+  padding: 50px 10px 50px 10px;
+  text-align: center;
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 3em;
+  text-shadow: 2px 1px 3px black;
+  letter-spacing: 10px;
+  color: #73FDFF;
+  height: 20vh;
+}
+
+@media screen and (max-width:850px){
+  h1{
+   font-size: 4.5em;
+    padding: 50px 10px 75px 10px;
+      height: 10vh;
+  }
+  h2{
+    font-size: 1.5em;
+    padding: 5px;
+    height: 5%;
+  }
+}
+
+
+body {
+  text-align: center;
+  background: none;
+  height: 100%;
+}
+
+.aboutP {
+  font-family: 'Ubuntu Mono', ;
+  font-size: 1.5em;
+  padding: 10px;
+  margin: 10px 50px 50px 50px;
+    color: whitesmoke;
+    text-align: centered;
+}
+
+@media screen and (max-width:850px){
+    .aboutP{
+        font-size: 1em;
+    }
+}
+
+.btn-primary {
+  background: none;
+  color: #73FDFF;
+  font-size: 14px;
+  -webkit-transition: all .3s ease;
+  	-moz-transition: all .3s ease; 
+  	-o-transition: all .3s ease; 
+  	-ms-transition: all .3s ease;
+  letter-spacing: 2px;
+  text-align: center;
+    /*min-width: 200px;
+    max-width: 200px;*/
+}
+
+
+.btn:hover {
+    background: none;
+  -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.20);
+    -moz-transform:scale(1.20);
+    -ms-transform:scale(1.20);
+    -o-transform:translatZ(0) scale(1.20);
+    transform:translatZ(0) scale(1.20);
+}
+
+.section2 {
+ background: url(../images/books-1076193_1280.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  padding-bottom: 100px;
+}/*services*/
+
+.section3 {
+ background: url(../images/texture-934511_1280.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 95vh;
+  padding-bottom: 100px;
+}
+
+.section4 {
+ background: url(../images/texture-934511_1280.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 95vh;
+  padding-bottom: 100px;
+}/*---------------------THANK YOU PAGE------------------*/
+
+.profileImage{
+  padding: 1px;
+}
+
+.small-sq-button{
+  width: 50px;
+  height: 40px;
+}
+
+.boldfont{
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.top-buffer{
+    margin-top: 20px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 5vh;
+    font-family: 'Rokkitt', serif;
+    font-size: 1em;
+    background: #344B37;
+}
